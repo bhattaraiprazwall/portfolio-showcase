@@ -25,9 +25,9 @@ const HeroSection = () => {
             className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-            <span className="gradient-text">Frontend</span>
+            <span className="gradient-text">Prajwal</span>
             <br />
-            <span className="text-foreground">Developer</span>
+            <span className="text-foreground">Bhattarai</span>
           </h1>
 
           {/* Description */}
@@ -35,8 +35,8 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
-            Crafting beautiful, responsive, and user-friendly web experiences 
-            with modern technologies like React, Next.js, TypeScript, and Tailwind CSS.
+            A Frontend Developer crafting beautiful, responsive, and user-friendly web experiences 
+            with React, Next.js, TypeScript, and Tailwind CSS.
           </p>
 
           {/* CTA Buttons */}

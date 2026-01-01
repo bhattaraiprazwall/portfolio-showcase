@@ -1,3 +1,5 @@
+import profilePhoto from "@/assets/profile-photo.jpg";
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 relative">
@@ -20,9 +22,11 @@ const AboutSection = () => {
             <div className="md:col-span-2">
               <div className="relative">
                 <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 border border-border overflow-hidden glow">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-8xl">👨‍💻</div>
-                  </div>
+                  <img 
+                    src={profilePhoto} 
+                    alt="Prajwal Bhattarai" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 {/* Decorative element */}
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-xl -z-10 blur-xl" />
@@ -32,16 +36,16 @@ const AboutSection = () => {
             {/* Text Content */}
             <div className="md:col-span-3 space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate Frontend Developer with a keen eye for design and a love for 
-                creating seamless user experiences. Currently pursuing my Bachelor's degree, 
-                I'm constantly learning and exploring new technologies to stay at the forefront 
-                of web development.
+                Hi, I'm Prajwal Bhattarai — a passionate Frontend Developer with a keen eye for design 
+                and a love for creating seamless user experiences. Currently pursuing my Bachelor's 
+                degree at Patan Multiple Campus, I'm constantly learning and exploring new technologies 
+                to stay at the forefront of web development.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 My journey in web development started with curiosity and has evolved into a 
                 deep passion for crafting clean, efficient, and visually appealing web applications. 
-                I specialize in modern frontend technologies and enjoy turning complex problems 
-                into simple, beautiful solutions.
+                I specialize in React, Next.js, TypeScript, and Tailwind CSS, and enjoy turning 
+                complex problems into simple, beautiful solutions.
               </p>
 
               {/* Quick Stats */}

@@ -36,7 +36,7 @@ const Navbar = () => {
             href="#"
             className="font-display text-xl font-bold gradient-text"
           >
-            Portfolio
+            Prajwal
           </a>
 
           {/* Desktop Navigation */}

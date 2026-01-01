@@ -11,7 +11,7 @@ const Footer = () => {
             {/* Logo/Brand */}
             <div className="text-center md:text-left">
               <span className="font-display text-xl font-bold gradient-text">
-                Portfolio
+                Prajwal Bhattarai
               </span>
               <p className="text-sm text-muted-foreground mt-1">
                 Frontend Developer

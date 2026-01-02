@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Greeting */}
           <p 
-            className="text-primary font-medium mb-4 animate-fade-up"
+            className="text-primary font-medium mb-4 animate-fade-up text-lg"
             style={{ animationDelay: "0.1s" }}
           >
             Hello, I'm
@@ -58,17 +58,17 @@ const HeroSection = () => {
             style={{ animationDelay: "0.5s" }}
           >
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/bhattaraiprazwall" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github size={20} />
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/prajwal-bhattarai-3a28a8248/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
-              <a href="mailto:hello@example.com" aria-label="Email">
+              <a href="mailto:prajwalbhattarai80@gmail.com" aria-label="Email">
                 <Mail size={20} />
               </a>
             </Button>

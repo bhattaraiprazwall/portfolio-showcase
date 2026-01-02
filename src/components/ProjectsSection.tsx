@@ -137,7 +137,7 @@ const ProjectsSection = () => {
           <div className="text-center mt-12">
             <Button variant="outline" size="lg" asChild>
               <a
-                href="https://github.com"
+                href="https://github.com/bhattaraiprazwall"
                 target="_blank"
                 rel="noopener noreferrer"
               >

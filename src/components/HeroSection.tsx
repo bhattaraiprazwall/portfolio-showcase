@@ -35,8 +35,8 @@ const HeroSection = () => {
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
-            A Frontend Developer crafting beautiful, responsive, and user-friendly web experiences 
-            with React, Next.js, TypeScript, and Tailwind CSS.
+            A FullStack Web and App Developer crafting beautiful, responsive, and user-friendly web experiences 
+            with React, Next.js, TypeScript, and Tailwind CSS & mobile apps with Flutter.
           </p>
 
           {/* CTA Buttons */}

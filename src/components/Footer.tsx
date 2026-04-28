@@ -14,7 +14,7 @@ const Footer = () => {
                 Prajwal Bhattarai
               </span>
               <p className="text-sm text-muted-foreground mt-1">
-                Frontend Developer
+                FullStack Web and App Developer
               </p>
             </div>
 

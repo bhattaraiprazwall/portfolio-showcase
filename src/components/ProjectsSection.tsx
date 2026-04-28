@@ -5,36 +5,67 @@ import projectEcommerce from "@/assets/project-ecommerce.jpg";
 import projectTaskapp from "@/assets/project-taskapp.jpg";
 
 const projects = [
+  // {
+  //   title: "Analytics Dashboard",
+  //   description:
+  //     "A comprehensive analytics dashboard with real-time data visualization, interactive charts, and performance metrics tracking.",
+  //   image: projectDashboard,
+  //   tech: ["React", "TypeScript", "Tailwind CSS", "Recharts"],
+  //   liveUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  //   featured: true,
+  // },
+  // {
+  //   title: "E-Commerce Platform",
+  //   description:
+  //     "Modern e-commerce platform with product catalog, shopping cart, and seamless checkout experience.",
+  //   image: projectEcommerce,
+  //   tech: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
+  //   liveUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  //   featured: true,
+  // },
+  // {
+  //   title: "Task Management App",
+  //   description:
+  //     "Collaborative task management application with kanban boards, team workspaces, and real-time updates.",
+  //   image: projectTaskapp,
+  //   tech: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+  //   liveUrl: "https://example.com",
+  //   githubUrl: "https://github.com",
+  //   featured: true,
+  // },
   {
-    title: "Analytics Dashboard",
+    title: "Currency Converter App",
     description:
-      "A comprehensive analytics dashboard with real-time data visualization, interactive charts, and performance metrics tracking.",
-    image: projectDashboard,
-    tech: ["React", "TypeScript", "Tailwind CSS", "Recharts"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    featured: true,
-  },
-  {
-    title: "E-Commerce Platform",
-    description:
-      "Modern e-commerce platform with product catalog, shopping cart, and seamless checkout experience.",
-    image: projectEcommerce,
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    featured: true,
-  },
-  {
-    title: "Task Management App",
-    description:
-      "Collaborative task management application with kanban boards, team workspaces, and real-time updates.",
+      "Currency Converter App",
     image: projectTaskapp,
-    tech: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    tech: ["Flutter"],
+    // liveUrl: "https://example.com",
+    githubUrl: "https://github.com/bhattaraiprazwall/currency_converter_app",
     featured: true,
   },
+  {
+    title: "Shopping App",
+    description:
+      "Simple Ecom App",
+    image: projectTaskapp,
+    tech: ["Flutter"],
+    // liveUrl: "https://example.com",
+    githubUrl: "https://github.com/bhattaraiprazwall/shopping-app",
+    featured: true,
+  },
+  {
+    title: "Weather Forecast App",
+    description:
+      "Weather Forecast App",
+    image: projectTaskapp,
+    tech: ["Flutter"],
+    // liveUrl: "https://example.com",
+    githubUrl: "https://github.com/bhattaraiprazwall/Weather_App",
+    featured: true,
+  },
+  
 ];
 
 const ProjectsSection = () => {
@@ -66,7 +97,7 @@ const ProjectsSection = () => {
                 {/* Project Image */}
                 <div className="relative aspect-video overflow-hidden">
                   <img
-                    src={project.image}
+                    // src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
@@ -82,7 +113,7 @@ const ProjectsSection = () => {
                       asChild
                     >
                       <a
-                        href={project.liveUrl}
+                        // href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                       >

@@ -36,22 +36,22 @@ const AboutSection = () => {
             {/* Text Content */}
             <div className="md:col-span-3 space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Hi, I'm Prajwal Bhattarai — a passionate Frontend Developer with a keen eye for design 
+                Hi, I'm Prajwal Bhattarai — a passionate Web and App Developer with a keen eye for design 
                 and a love for creating seamless user experiences. Currently pursuing my Bachelor's 
                 degree at Patan Multiple Campus, I'm constantly learning and exploring new technologies 
-                to stay at the forefront of web development.
+                to stay at the forefront of web and app development.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 My journey in web development started with curiosity and has evolved into a 
-                deep passion for crafting clean, efficient, and visually appealing web applications. 
-                I specialize in React, Next.js, TypeScript, and Tailwind CSS, and enjoy turning 
+                deep passion for crafting clean, efficient, and visually appealing web and mobile applications. 
+                I specialize in React, Next.js, TypeScript, Tailwind CSS,and Flutter and enjoy turning 
                 complex problems into simple, beautiful solutions.
               </p>
 
               {/* Quick Stats */}
               <div className="grid grid-cols-2 gap-6 pt-6 border-t border-border">
                 <div>
-                  <div className="text-3xl font-display font-bold gradient-text">2+</div>
+                  <div className="text-3xl font-display font-bold gradient-text">1+</div>
                   <div className="text-sm text-muted-foreground">Years Learning</div>
                 </div>
                 <div>

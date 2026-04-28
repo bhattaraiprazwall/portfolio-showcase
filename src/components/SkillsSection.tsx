@@ -4,7 +4,12 @@ const skills = [
   {
     category: "Frontend",
     icon: <Code2 className="w-6 h-6" />,
-    items: ["React.js", "Next.js", "TypeScript", "JavaScript"],
+    items: ["Flutter","React.js", "Next.js", "TypeScript", "JavaScript"],
+  },
+  {
+    category: "Backend",
+    icon: <Code2 className="w-6 h-6" />,
+    items: ["ExpressJS","NodeJs","JavaScript","Firebase"],
   },
   {
     category: "Styling",
@@ -24,7 +29,10 @@ const skills = [
 ];
 
 const techStack = [
-  { name: "React", color: "from-cyan-400 to-blue-500" },
+  { name: "Flutter", color: "from-cyan-400 to-blue-500" },
+  { name: "NodeJS", color: "from-cyan-400 to-blue-500" },
+  { name: "ExpressJs", color: "from-cyan-400 to-blue-500" },
+  { name: "ReactJs", color: "from-cyan-400 to-blue-500" },
   { name: "Next.js", color: "from-gray-400 to-gray-600" },
   { name: "TypeScript", color: "from-blue-400 to-blue-600" },
   { name: "Tailwind CSS", color: "from-teal-400 to-cyan-500" },
